@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+#wrapper {
+    height: 550px;
+    width: 550px;
+    background-color: #1f2937;
+}
+
+#main-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 60%;
+    margin: 50px 50px 25px 50px;
+    border-bottom: 1px solid #2f3e53;
+}
+
+#main-title {
+    color: white;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 70px;
+}
+
+#green-text {
+    color: #55f991;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+}
+
+#description {
+    color: #d5d4d8;
+    font-size: 20px;
+    margin-top: 10px;  
+    margin-bottom: 60px; 
+}
+
+#generate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    border: none;
+    border-radius: 6px;
+    height: 42px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #10b981;
+    color: white;
+    text-decoration: none;
+}
+
+#bolt {
+    padding-right: 15px;
+}
+
+#password-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+    margin: 0 50px 60px 50px;
+}
+
+#password1,
+#password2,
+#password3,
+#password4 {
+    background-color: #273549;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #10b981;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+#user-input-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#user-input {
+    display: inline;
+    width: 46.5%;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#user-input:focus {
+    outline-color: #10b981;
+}
+
+#alert-message {
+    color: red;
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    height: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

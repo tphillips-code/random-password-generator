@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="main-display">
+            <div id="title-div">
+                <h1 id="main-title">Generate a</h1>
+                <h1 id="green-text">random password</h1>
+                <p id="description">Never use an insecure password again.</p>
+            </div>
+            <div id="user-input-section">
+                <button id="generate-button" onclick="generateRandomPasswords()"> <img src="images/bolt.png" id="bolt"> Generate Passwords</button>
+                <input type="number" placeholder="Character length" id="user-input">
+            </div>
+            <p id="alert-message"></p>
+        </div>
+        <div id="password-display">
+            <p id="password1"> <img src="images/dots.png" class="dots"> </p>
+            <p id="password2"> <img src="images/dots.png" class="dots"> </p>
+            <p id="password3"> <img src="images/dots.png" class="dots"> </p>
+            <p id="password4"> <img src="images/dots.png" class="dots"> </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
